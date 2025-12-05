@@ -1,0 +1,60 @@
+================================================
+REQUIRED IMAGES & VIDEO FOR MOG PLUGGINGS
+================================================
+
+The website is built with placeholders. To complete the site, add the following files to the `assets` folder.
+
+------------------------------------------------
+VIDEO (1 File)
+------------------------------------------------
+Folder: assets/videos/
+1. 8-second-story.mp4  (1920x1080px) - Main hero video
+
+------------------------------------------------
+IMAGES (5 Files)
+------------------------------------------------
+Folder: assets/images/
+
+1. about-image.jpg
+   - Used on: about.html
+   - Content: Corporate team meeting, office culture, or collaboration shot.
+   - Size: 1200x900px
+
+2. services-image.jpg
+   - Used on: services.html
+   - Content: Workflow diagram, people working on laptops, or whiteboard session.
+   - Size: 1200x675px
+
+3. portfolio-1.jpg
+   - Used on: case-studies.html (TechStart & InnovateLabs)
+   - Content: Tech team working, code on screen, or modern office environment.
+   - Size: 1200x800px
+
+4. portfolio-2.jpg
+   - Used on: case-studies.html (ScaleUp & GlobalCorp)
+   - Content: Another angle of office work, meeting room, or data visualization.
+   - Size: 1200x800px
+
+5. contact-image.jpg
+   - Used on: contact.html
+   - Content: Reception area, friendly support team, or building exterior.
+   - Size: 1200x900px
+
+------------------------------------------------
+HOW TO UPDATE
+------------------------------------------------
+1. Create the folders if they don't exist:
+   mkdir -p assets/images assets/videos
+
+2. Place your files in these folders with the EXACT names listed above.
+
+3. The code is already set up to look for these files. 
+   - If you want to see the images immediately, open the HTML files and uncomment the <img> tags (look for comments like "Uncomment when image is ready").
+   - Currently, the site shows styled "Placeholder" boxes with the file names printed inside them for easy reference.
+
+------------------------------------------------
+OPTIONAL (For "Leadership" & "Logos")
+------------------------------------------------
+The "Leadership" section (about.html) and "Trusted By" section (index.html) currently use CSS/Text placeholders. 
+You can replace these with actual <img> tags if you have specific headshots or logo files.
+
